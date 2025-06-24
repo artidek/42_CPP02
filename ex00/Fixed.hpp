@@ -6,7 +6,7 @@
 /*   By: aobshatk <aobshatk@mail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/24 13:20:00 by aobshatk          #+#    #+#             */
-/*   Updated: 2025/06/24 20:02:29 by aobshatk         ###   ########.fr       */
+/*   Updated: 2025/06/24 21:53:16 by aobshatk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ public:
 
 	Fixed & operator=(Fixed const & copy);
 	int	getRawBits(void) const;
-	int	setRawBits(int const raw);
+	void	setRawBits(int const raw);
 };
 
 #endif

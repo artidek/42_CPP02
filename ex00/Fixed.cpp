@@ -6,7 +6,7 @@
 /*   By: aobshatk <aobshatk@mail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/24 13:37:31 by aobshatk          #+#    #+#             */
-/*   Updated: 2025/06/24 20:04:59 by aobshatk         ###   ########.fr       */
+/*   Updated: 2025/06/24 21:53:51 by aobshatk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ int	Fixed::getRawBits(void) const
 	return this->_n;
 }
 
-int	Fixed::setRawBits(int const raw)
+void	Fixed::setRawBits(int const raw)
 {
-	return raw * (1 << this->_f);
+	this->_n = raw;
 }
