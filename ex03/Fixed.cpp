@@ -6,7 +6,7 @@
 /*   By: aobshatk <aobshatk@mail.com>               +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/24 20:34:17 by aobshatk          #+#    #+#             */
-/*   Updated: 2025/06/25 16:32:09 by aobshatk         ###   ########.fr       */
+/*   Updated: 2025/06/25 16:28:35 by aobshatk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -112,7 +112,7 @@ Fixed Fixed::operator--(int)
 
 Fixed Fixed::operator+(Fixed const & addFix)
 {
-	Fixed sum;
+	Fixed sum ;
 
 	sum.setRawBits(this->_n + addFix.getRawBits());
 	return sum;
